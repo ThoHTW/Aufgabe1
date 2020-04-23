@@ -15,7 +15,7 @@ public class GCDDivRestItCmd implements ICommand{
         }
 
     }
-
+    //algorithmus
     public int euclidIterativModern(int a, int b){
         while(b != 0){
             int h = a%b;
@@ -24,6 +24,7 @@ public class GCDDivRestItCmd implements ICommand{
         }
         return a;
     }
+    //gibt ergebnis als string zurück
     public String toString(int a){
         return "Der ggT nach Euklid Iterativ Modern ist: "+a;
     }

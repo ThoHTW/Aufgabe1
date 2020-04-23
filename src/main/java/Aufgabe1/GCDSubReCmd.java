@@ -16,13 +16,14 @@ public class GCDSubReCmd implements ICommand {
         }
 
     }
-
+    // algorithmus
     public int euclidRekursivKlassich(int a, int b){
         if(b == 0) return a;
         else if (a == 0) return b;
         else if (a > b) return euclidRekursivKlassich(a-b, b);
         else return euclidRekursivKlassich(a, b-a);
     }
+    //gibt ergebnis als string zurück
     public String toString(int a){
         return "Der ggT nach Euklid Rekursiv klassisch ist: "+a;
     }

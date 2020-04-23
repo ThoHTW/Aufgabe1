@@ -8,6 +8,7 @@ public class ConsoleTest {
 
     @Test
     // Test der eingabe nach beispiel aus ihrem Apptest
+    // test ob integer akzeptiert werden
     public void readIntegerFromStdintestGut() throws Exception{
         Console con = new Console();
         String data = "20";
@@ -21,6 +22,7 @@ public class ConsoleTest {
     }
 
     @Test
+    // test ob strings akzeptiert werden
     public void readStringFromStdinGut() throws Exception{
         Console con = new Console();
         String data = "Thomas";

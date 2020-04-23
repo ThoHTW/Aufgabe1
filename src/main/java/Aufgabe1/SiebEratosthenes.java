@@ -14,7 +14,7 @@ public class SiebEratosthenes implements ICommand {
         }
 
     }
-
+    //algorithmus ergebnis wird schon hier ausgegeben
     public void siebEratosthenes(int a){
         if (a < 2) {
             a = 2;
@@ -36,7 +36,7 @@ public class SiebEratosthenes implements ICommand {
             if(isPrim[j]) System.out.print(j+" ");
         }
     }
-
+    //gibt text vor ausgabe des ergebnis zurück
     public String toString(){
         return "Die folgenden Zahlen sind Primzahlen: ";
     }

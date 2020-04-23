@@ -6,6 +6,7 @@ import org.junit.Test;
 public class GCDSubReCmdTest {
 
     @Test
+    //test ob das richtige ergebnis herauskommt
     public void gutTest() throws Exception{
         GCDSubReCmd test = new GCDSubReCmd();
         int erhalten = test.euclidRekursivKlassich(4,20);

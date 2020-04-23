@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class GCDSubItCmdTest {
     @Test
+    //test ob das richtige ergebnis herauskommt
     public void gutTest() throws Exception {
         GCDSubItCmd test = new GCDSubItCmd();
         int erhalten = test.euclidItertivKlassisch(4,20);

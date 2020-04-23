@@ -15,7 +15,7 @@ public class GCDSubItCmd implements ICommand{
             System.out.println("Whoopsidoopsie fehler in GCDSubReCmd");
         }
     }
-
+    // algorithmus
     public int euclidItertivKlassisch(int a, int b){
         if (a==0){
             return b;
@@ -27,6 +27,7 @@ public class GCDSubItCmd implements ICommand{
         }
         return a;
     }
+    //gibt ergebnis als string zurück
     public String toString(int a){
         return "Der ggT nach Euklid Iterativ klassisch ist: "+a;
     }

@@ -6,6 +6,7 @@ import org.junit.Test;
 public class GCDDivRestItCmdTest {
 
     @Test
+    //test ob das richtige ergebnis herauskommt
     public void gutTest() throws Exception {
         GCDDivRestItCmd test = new GCDDivRestItCmd();
         int erhalten = test.euclidIterativModern(4, 20);

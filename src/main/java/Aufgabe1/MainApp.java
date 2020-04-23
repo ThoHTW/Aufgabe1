@@ -14,26 +14,24 @@ public class MainApp {
         CommandFactory cmdFactory = new CommandFactory();
         Console con = new Console();
 
-        // create a list of all commands
+        // Linked list mit allen commands
         LinkedList<ICommand> commands = new LinkedList<>();
         commands.add(cmdFactory.createGCDSubReCmd());
         commands.add(cmdFactory.createGCDSubItCmd());
         commands.add(cmdFactory.createGCDDivRestRecCmd());
         commands.add(cmdFactory.createGCDDivRestItCmd());
         commands.add(cmdFactory.SiebEratosthenes());
-        boolean again = true;
        do {
            //Menü wird angezeigt und ausgeführt
            int wahl = con.consoleMenue();
            if (wahl == 0) {
-               again = false;
                System.exit(0);
            } else {
                ICommand command = commands.get(wahl - 1);
                //gewählter command wird angezeigt und ausgeführt
                System.out.println(command);
                command.execute();
-               System.out.println("");
+               System.out.println();
            }
        }while(true);
     }

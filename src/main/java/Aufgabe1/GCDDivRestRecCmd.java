@@ -15,15 +15,15 @@ public class GCDDivRestRecCmd implements ICommand{
         }
 
     }
-
+    // algorithmus
     public int euklidRekursivModern(int a,int b){
         if (b==0) {
             return a;
         }
         return euklidRekursivModern(b, a%b);
     }
-
-        public String toString(int a){
+    //gibt ergebnis als string zurück
+    public String toString(int a){
             return "Der ggT nach Euklid Rekursiv Modern ist: "+a;
         }
 

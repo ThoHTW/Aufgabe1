@@ -37,7 +37,7 @@ public class Console {
         } while (true);
 
     }
-
+    //vollständiges Menü mit eingabe
     public int consoleMenue() {
         System.out.println("Console-Application: Exercise-1\n" +
                 " 1. Greatest Common Divisor (GCD) - (Recursive) Euclid's algorithm subtraction\n" +
