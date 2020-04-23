@@ -32,5 +32,8 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'Aufgabe1.App'
+    mainClassName = 'Aufgabe1.MainApp'
+}
+run {
+  standardInput = System.in
 }

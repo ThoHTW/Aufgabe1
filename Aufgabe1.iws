@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf590c7a-a403-4a85-a0f5-3ccc3782324a" name="Default Changelist" comment="good">
+    <list default="true" id="bf590c7a-a403-4a85-a0f5-3ccc3782324a" name="Default Changelist" comment="kommentare und so, anpassungen in build.gradle">
       <change beforePath="$PROJECT_DIR$/Aufgabe1.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe1.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aufgabe1/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe1/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Aufgabe1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe1/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Aufgabe1/ConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Aufgabe1/ConsoleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Aufgabe1/GCDDivRestItCmdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Aufgabe1/GCDDivRestItCmdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Aufgabe1/GCDDivRestRecCmdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Aufgabe1/GCDDivRestRecCmdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Aufgabe1/GCDSubItCmdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Aufgabe1/GCDSubItCmdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aufgabe1/SiebEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe1/SiebEratosthenes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +127,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Challenge2" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.MainApp">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -281,20 +296,40 @@
       <option name="project" value="LOCAL" />
       <updated>1587631808163</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nur ein paar kommentare">
+      <created>1587656434124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587656434124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="good" />
-    <option name="LAST_COMMIT_MESSAGE" value="good" />
+    <MESSAGE value="nur ein paar kommentare" />
+    <MESSAGE value="kommentare und so, anpassungen in build.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="kommentare und so, anpassungen in build.gradle" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="478" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1587656234913">
+    <state x="478" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1587656365971">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="478" y="131" width="1024" height="852" key="#Project_Structure/70.27.1850.1053@70.27.1850.1053" timestamp="1587656234913" />
+    <state x="478" y="131" width="1024" height="852" key="#Project_Structure/70.27.1850.1053@70.27.1850.1053" timestamp="1587656365971" />
     <state x="803" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587570737963">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -315,25 +350,25 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="850" y="453" width="290" height="207" key="Github.ShareDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1587632045158" />
-    <state width="1804" height="701" key="GridCell.Tab.0.bottom" timestamp="1587632169765">
+    <state width="1804" height="507" key="GridCell.Tab.0.bottom" timestamp="1587657256183">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="701" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1587632169765" />
-    <state width="1804" height="701" key="GridCell.Tab.0.center" timestamp="1587632169764">
+    <state width="1804" height="507" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1587657256183" />
+    <state width="1804" height="507" key="GridCell.Tab.0.center" timestamp="1587657256182">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="701" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1587632169764" />
-    <state width="1804" height="701" key="GridCell.Tab.0.left" timestamp="1587632169763">
+    <state width="1804" height="507" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1587657256182" />
+    <state width="1804" height="507" key="GridCell.Tab.0.left" timestamp="1587657256182">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="701" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1587632169763" />
-    <state width="1804" height="701" key="GridCell.Tab.0.right" timestamp="1587632169764">
+    <state width="1804" height="507" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1587657256182" />
+    <state width="1804" height="507" key="GridCell.Tab.0.right" timestamp="1587657256182">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="701" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1587632169764" />
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587631885851">
+    <state width="1804" height="507" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1587657256182" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587656439930">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1587631885851" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1587656439930" />
   </component>
 </project>

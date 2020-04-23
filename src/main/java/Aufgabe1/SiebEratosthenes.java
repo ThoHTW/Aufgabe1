@@ -6,7 +6,7 @@ public class SiebEratosthenes implements ICommand {
     public void execute(){
         Console con = new Console();
         try{
-            int a = con.readIntegerFromStdin("Geben sie die 1. Zahl ein: ");
+            int a = con.readIntegerFromStdin("Geben sie Obergrenze ein: ");
             toString();
             siebEratosthenes(a);
         }catch(Exception e){
